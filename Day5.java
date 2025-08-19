@@ -64,11 +64,20 @@
 //         System.out.println(fac);
 //     }
 // }
-import java.util.Scanner;
-public class Day5 {
+// import java.util.Scanner;
+// public class Day5 {
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        
-    }
-}
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter num:");
+//         int num = sc.nextInt();
+//         int sum=0,rem =0;
+//         while(num!=0)
+//         {
+//             sum = num%10;
+//             rem +=sum;
+//             num /= 10;
+//         }
+//         System.out.println(rem);
+//     }
+// }
