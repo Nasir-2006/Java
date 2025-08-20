@@ -77,7 +77,27 @@
 //             sum = num%10;
 //             rem +=sum;
 //             num /= 10;
+           
 //         }
-//         System.out.println(rem);
+//         System.out.print(rem);
 //     }
 // }
+import java.util.Scanner;
+public class Day5 {
+    public static int HCF(int num1,int num2) {
+        while(num1!=0)
+        {
+            int temp = num2;
+            num2 = num1%num2;
+            num1 = temp;
+        }
+        return num1;
+    }
+public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter num1:");int num1 = sc.nextInt();
+    System.out.println("Enter num2:");int num2 = sc.nextInt();
+    int hcf = HCF(num1,num2);
+    System.out.println(hcf);
+}
+}
