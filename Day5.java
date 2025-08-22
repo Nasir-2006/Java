@@ -156,3 +156,25 @@
 //        System.out.println(dig);
 //     }
 // }
+// import java.util.Scanner;
+// public class Day5 {
+// public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     System.out.println("Enter num:");
+//     int num = sc.nextInt();
+//     int count = 1;
+//     while(count<=num)
+//     {
+//         int pri=0,hi=1;
+//         while(hi<=count)
+//         {
+//             if(count%hi==0)
+//             pri++;
+//             hi++;
+//         }
+//         if(pri==2)
+//         System.out.println(count+" ");
+//         count++;
+//     }
+// }
+// }
