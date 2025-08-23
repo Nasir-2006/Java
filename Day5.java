@@ -209,3 +209,27 @@
 //         System.out.println("Swapped num are "+num1+" "+num2);
 //     }
 // }
+// import java.util.Scanner;
+// public class Day5 {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter num:");
+//         int num = sc.nextInt();
+//         int num2 = num;
+//         int dig = (int)Math.log10(num)+1;
+//         int sum=0,digi=0;
+//         while(num!=0)
+//         {
+//             digi = num%10;
+//             sum+=Math.pow(digi,dig);
+//             num/=10;
+//         }
+//         if(num2==sum)
+//         {
+//             System.out.println("Its Armstrong");
+//         }
+//         else
+//         System.out.println("Not its not");
+//     }
+// }
