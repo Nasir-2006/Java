@@ -47,6 +47,9 @@ class car{
     }
    }
 }
+class Driver{   
+
+}
 public class OOP {
 public static void main(String[] args) {
     car alto = new car();
@@ -54,9 +57,11 @@ public static void main(String[] args) {
     alto.fuelInCar();
     alto.airInCar(32);
     alto.cargear(0);
-    alto.fuelInCar();
-    alto.airInCar(32);
-    alto.cargear(1);
+    car swift = new car();
+    swift.addfuel(0);
+    swift.fuelInCar();
+    swift.airInCar(0);
+    swift.cargear(0);
 
 }
 }
