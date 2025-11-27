@@ -113,7 +113,7 @@ public static void main(String[] args) {
     P1.caltime(); 
     P1.calTax(); 
     P1. Display();
-    
+    sc.close();
 
 }
 }
