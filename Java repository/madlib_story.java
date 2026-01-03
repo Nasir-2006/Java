@@ -26,8 +26,8 @@ public class madlib_story {
         Noun = sc.nextLine();
         System.out.println("Enter a number:");
         num = sc.nextInt();
-        System.out.println("Yesterday, I was walking through the "+Adj1+" forest when I tripped over a giant"+noun1+". I couldn’t believe my eyes! I started "+verb+" as fast as I could. Suddenly, I yelled "+sign );
-        System.out.println("Right in front of me was a secret entrance to"+Place+" . It looked very "+ Adj2+". I went inside and found hundreds of "+Noun+" scattered everywhere. I decided to take "+num+" of them home with me. What a day!");
+        System.out.println("Yesterday, I was walking through the "+Adj1+" forest when I tripped over a giant "+noun1+". I couldn’t believe my eyes! I started "+verb+" as fast as I could. Suddenly, I yelled "+sign );
+        System.out.println("Right in front of me was a secret entrance to "+Place+" . It looked very "+ Adj2+". I went inside and found hundreds of "+Noun+" scattered everywhere. I decided to take "+num+" of them home with me. What a day!");
         sc.close();
     }
 }
