@@ -1,4 +1,4 @@
-class ATM{
+class ATM1{
     private double balance;
     public void setbalance(double balance)
     {
@@ -17,7 +17,7 @@ class ATM{
 public class day5 {
 
     public static void main(String[] args) {
-        ATM atm = new ATM();
+        ATM1 atm = new ATM1();
         
         atm.setbalance(0);
         
