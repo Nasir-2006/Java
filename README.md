@@ -18,7 +18,7 @@ I'm a beginner in Java, and I wanted a place to:
 
 - **Java JDK** – to write and run Java programs  
 - **Maven** – to manage the project and build it easily  
-- **IntelliJ IDEA / Eclipse** – my code editor  
+- **VS code** – my code editor  
 - **Google & YouTube** – my best friends when I get stuck 😄
 
 ---
