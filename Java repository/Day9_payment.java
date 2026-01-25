@@ -24,8 +24,9 @@ public class Day9_payment {
     public static void main(String[] args) {
         Payment Credit = new creditcard();
         Payment Cash = new CashONDeliebery();
+        Credit.showReceipt();
         Credit.pay(5000);
+        Cash.showReceipt();
         Cash.pay(1000);
-        
     }
 }
