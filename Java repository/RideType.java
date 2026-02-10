@@ -121,7 +121,7 @@ class BikeRide implements RideType {
     
     @Override
     public double calculateFare() {
-        return distance * 20;
+        return distance * 5;
     }
 }
 
@@ -134,7 +134,7 @@ class CarRide implements RideType {
     
     @Override
     public double calculateFare() {
-        return distance * 50;
+        return distance * 15;
     }
 }
 
@@ -147,7 +147,7 @@ class LuxuryRide implements RideType {
     
     @Override
     public double calculateFare() {
-        return distance * 100;
+        return distance * 25;
     }
 }
 class InnerRideType {
